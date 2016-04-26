@@ -19,8 +19,14 @@ Access (OFDMA) no downlink e Single Carrier FDMA no uplink para conseguir utiliz
 do espectro. Ele pode ser utilizado em blocos de frequências de 1,4 MHz a 20 MHz e ambas em
 operação FDD e TDD.
 
+Apesar de tanto o LTE como o WiMAX utilizarem uma ligação sem fios OFDMA, o primeiro possui a 
+vantagem de ser compatível com os recursos existentes nas redes HSPA e GSM, permitindo que os 
+operadores móveis possam realizar a transição para a tecnologia LTE sem descontinuidade de serviço 
+nas redes já existentes.
+
+Vários dos grandes operadores de comunicações móveis, incluindo alguns que utilizam a norma CDMA, 
+optaram pela adopção dessa tecnologia nos próximos anos.
 
 
-
-
+more: https://pt.wikipedia.org/wiki/Long_Term_Evolution
 
