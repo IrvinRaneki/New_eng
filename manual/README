@@ -1,10 +1,10 @@
-#############################
-## LL     TTTTTTTT EEEEEEE ##
-## LL        TT    EE      ##
-## LL        TT    EEEE    ##
-## LL        TT    EE      ##
-## LL        TT    EE      ##
-## LLLLLLL   TT    EEEEEEE ##
+#############################	    44	   GGGG
+## LL     TTTTTTTT EEEEEEE ##	  4 44	  GG
+## LL        TT    EE      ##	 4  44	 GG
+## LL        TT    EEEE    ##	44444444 GG  GGGG  
+## LL        TT    EE      ##	    44	 GG    GG
+## LL        TT    EE      ##	    44	  GG   GG
+## LLLLLLL   TT    EEEEEEE ##	    44	   GGGGG
 #############################
 
 Long Term Evolution (em português - Evolução de Longo Prazo)
@@ -29,3 +29,15 @@ optaram pela adopção dessa tecnologia nos próximos anos.
 
 more: https://pt.wikipedia.org/wiki/Long_Term_Evolution
 
+#############################
+
+	FAPI Log - LTE
+
+#############################
+
+A Estação Radio Base LTE(eNodeB) envia mensagens via UDP para um IP previamente configurado. Estas 
+mensagens contem informações referentes ao sinal da torre e celular(UE) como por exemplo: Condição de 
+BLER (Block Error Rate) que é o indicativo de erro no envio de mensagem. O limite maximo de BLER 
+estabelecido pelo 3GPP, orgão regulamentador das Teles, é de 10%. 
+Para ter mais controle da relacao sinal ruido de seu canal seria ótimo uma ferramenta que mostrasse 
+em Real Time o valor atual.
