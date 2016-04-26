@@ -1,0 +1,21 @@
+#############################
+## LL	  TTTTTTTT EEEEEEE ##
+## LL	     TT	   EE      ##
+## LL        TT	   EEEE    ##
+## LL        TT	   EE      ##
+## LL	     TT	   EE      ##
+## LLLLLLL   TT	   EEEEEEE ##
+#############################
+
+Long Term Evolution (em português - Evolução de Longo Prazo)
+
+É um padrão de redes de comunicação movel que se encontra em fase de adaptação por parte dos
+operadores que utilizam tecnologias GSM como 3G/W-CDMA e HSPA e também pelos operadores de CDMA. 
+Esta nova tecnologia de radio permite velocidades de 150Mb/s de downlink e 50Mb/s de uplink.
+
+O LTE foi concebido para manter a compatibilidade com o GSM e o HSPA. Incorpora o Multiple In 
+Multiple Out (MIMO), em combinação com uma multiplexação Orthogonal Frequency Division Multiple 
+Access (OFDMA) no downlink e Single Carrier FDMA no uplink para conseguir utilizações eficientes 
+do espectro. Ele pode ser utilizado em blocos de frequências de 1,4 MHz a 20 MHz e ambas em 
+operação FDD e TDD.
+
