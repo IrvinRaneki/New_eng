@@ -1,8 +1,28 @@
 #########=====servpy=====##########
 #!/user/bin/python
 import socket
+from collections import deque
+import matplotlib.pyplot as plt
 
 import time
+##################################################################
+#                          plota grafico                         #
+##################################################################
+def plota_graf(addr, num):
+    a1 = deque([0]*100)
+    ax = plt.axes(xlim=(0,100), ylim=(0,10))
+    d = conect(addr, num)
+
+    line, = plt.plot(a1)
+    plt.ion()
+    plt.ylim([-15,15])
+    plt.show()
+    while True:
+        a1.appendleft(next(d))
+        retira_1 = a1.pop()
+        line.set_ydata(a1)
+        plt.draw()
+        plt.pause(0.1)
 
 ##################################################################
 #             funcao conect: aguarda o recebimento da msg        #
@@ -16,6 +36,7 @@ def conect(addr, recebe):
         recebe, cliente = serv_socket.recvfrom(1024)
         #->apos conexao ha o aguardo de dado enviado pela rede de ate 1024 Bytes (1 argv -> tamanho do buffer)
         print "mensagem recebida: "+ recebe
+        yield recebe
     serv_socket.close()
 
 ##################################################################
@@ -27,7 +48,7 @@ def main():
     port = 8888
     addr = (host, port)
 
-    conect(addr, recebe)
+    plota_graf(addr, recebe)
 
 if __name__ == '__main__':
     main()
