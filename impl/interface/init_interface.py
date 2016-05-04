@@ -3,16 +3,6 @@
     #codigo para uso de caracteres especiais
 from Tkinter import *
 import tkMessageBox
-import sys
-import os
-from matplotlib import *
-from matplotlib.figure import Figure
-import subprocess
-from numpy import arange, sin, pi
-import matplotlib
-matplotlib.use('TkAgg')
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2TkAgg
-
 
 ################################################################################
 #criacao da classe
@@ -40,11 +30,7 @@ class Packing(Frame):
         fileMenu=Menu(menubar)
         helpMenu=Menu(menubar)
 
-
-        submenu=Menu(fileMenu)
-
         fileMenu.add_command(label="Exit", underline=0, command=self.onExit)
-
         menubar.add_cascade(label="File",underline=0, menu=fileMenu)
 
         helpMenu.add_command(label="About Program of Plot", underline=0, command=self.about)
