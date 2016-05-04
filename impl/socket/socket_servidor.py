@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 import time
 ##################################################################
-#                          plota grafico                         #
+#                       plota grafico random                     #
 ##################################################################
 def plota_graf(addr, num):
     a1 = deque([0]*100)
